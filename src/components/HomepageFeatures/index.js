@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Rapid Development',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Accelerate your mobile app development with Flutter's hot reload feature for a fast and flexible development cycle.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Unified Design',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Create visually appealing apps with Flutter's extensive widget library,
+         tailored for both iOS and Android for a consistent user experience.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Customizable Widgets',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Easily customize widgets to suit your needs. Flutter's comprehensive 
+       toolkit allows you to tweak every aspect of the app's appearance and functionality.
       </>
     ),
   },

@@ -1,43 +1,39 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import Splash from './home/Splash';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+
+
+const features = [
+  {
+    title: "Rapid Development",
+    description: "Accelerate your mobile app development with Flutter's hot reload feature for a fast and flexible development cycle."
+  },
+  {
+    title: "Unified Design",
+    description: "Create visually appealing apps with Flutter's extensive widget library, tailored for both iOS and Android for a consistent user experience."
+  },
+  {
+    title: "Customizable Widgets",
+    description: "Easily customize widgets to suit your needs. Flutter's comprehensive toolkit allows you to tweak every aspect of the app's appearance and functionality."
+  },
+  {
+    title: "Versatile Development",
+    description: "Leverage Flutter's versatility to create solutions for any platform, with the ability to integrate with existing code or build completely from scratch."
+  }
+];
+
+function Home() {
+  const context = useDocusaurusContext();
+  const { siteConfig = {} } = context;
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blogs">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+    <Layout title={siteConfig.title} description={siteConfig.tagline}>
+      <Splash />
     </Layout>
   );
 }
+
+export default Home;

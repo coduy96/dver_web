@@ -23,17 +23,11 @@ export default function Splash() {
             </h3>
             <div className={styles.buttonContainer}>
               <a
-                href={useBaseUrl('/docs/getting-started')}
+                href="mailto:coduy96@gmail.com"
                 className={styles.button}
               >
-                Read Docs
+                  Get In Touch Today!
               </a>
-              {/* <a
-                href="https://github.com/react-navigation/react-navigation/tree/main/example"
-                className={`${styles.button} ${styles.buttonPrimary}`}
-              >
-                Try It
-              </a> */}
             </div>
           </div>
           <div className={styles.mainUnderlay} />

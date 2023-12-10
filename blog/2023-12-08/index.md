@@ -8,7 +8,7 @@ tags: [flutter, architecture]
 
 So you've landed on a new project and need to navigate its intricate codebase. Whether you're a seasoned developer or a budding programmer, reading unfamiliar source code can be daunting. Fear not! With the right approach, you can transform this challenge into an opportunity to learn and grow.
 
-### Before Diving In:
+### Before Diving In
 
 **1. Lay the Groundwork:** Context is key. Before delving into the code, familiarize yourself with the project's goals, functionalities, and architecture. This will provide a roadmap for understanding the code's purpose and structure. Explore available documentation, project notes, and issue trackers to gain valuable insights.
 
@@ -17,7 +17,7 @@ So you've landed on a new project and need to navigate its intricate codebase. W
 **3. Start Small, Conquer Big:** Don't try to eat the elephant whole! Begin with smaller modules or components focused on specific functionalities. This will gradually build a mental model of the code and prevent feeling overwhelmed. Remember, slow and steady wins the race.
 
 
-### Navigating the Code:
+### Navigating the Code
 ![Example banner](https://www.cubic.com/sites/default/files/2020-07/cubic-blog-david-harris-navigating-careers-path.jpg)
 
 **1. Top-Down Approach:** Start by understanding the overall structure of the code. Explore classes, functions, and modules to get a bird's eye view of the organization and flow. This initial overview will guide your deeper exploration of specific components.
@@ -31,7 +31,7 @@ So you've landed on a new project and need to navigate its intricate codebase. W
 **5. No Shame in Asking:** Don't be afraid to admit you're stuck! Seek help from experienced developers, online communities, or forum discussions. Collaboration and knowledge sharing are invaluable tools in the developer's toolbox.
 
 
-## Beyond the Basics:
+## Beyond the Basics
 ![Example banner](https://knowledge.insead.edu/sites/knowledge/files/styles/1280x500/public/images/2022/07/gettyimages-904944566_sm.jpg?itok=SsEiADDB)
 
 **1. Version Control Savvy:** Familiarize yourself with the project's version control system (e.g., Git). This will allow you to understand the evolution of the code and how it has changed over time, providing a valuable historical perspective.

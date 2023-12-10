@@ -15,12 +15,15 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.0.1",
+    "@docusaurus/plugin-ideal-image": "^3.0.1",
     "@docusaurus/preset-classic": "^3.0.1",
     "@docusaurus/theme-search-algolia": "^3.0.1",
     "@mdx-js/react": "^3.0.0",
+    "classnames": "^2.3.2",
     "clsx": "^1.2.1",
     "docusaurus-plugin-search-local": "^1.0.1",
     "prism-react-renderer": "^2.1.0",
+    "rc-util": "^5.38.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

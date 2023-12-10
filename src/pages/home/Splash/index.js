@@ -35,12 +35,12 @@ export default function Splash() {
         <SplashRightIllustration />
       </div>
       <div className={styles.migrationText}>
-        💡 For more information{' '}
+        💡 Discover Valuable Insights:{' '}
         <Link
-          to={useBaseUrl('https://www.youtube.com/channel/UCIes9cBe9589V4X3RWREB3g')}
+          to={useBaseUrl('blog')}
           className={styles.linkText} 
         >
-          Subcribe
+          Click Here!
         </Link>
         .
       </div>

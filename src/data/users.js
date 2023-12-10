@@ -37,7 +37,7 @@ const users = [
   },
   {
     title: "iWater",
-    description: "Whether you're looking for advice on a specific topic or just need someone to talk to, Xpert is here to help. Our advanced AI technology ensures that you get the most accurate and up-to-date information, while our user-friendly interface makes it easy to navigate and find what you need.",
+    description: "iWater is a mobile application that leverages the power of artificial intelligence to calculate your ideal daily water intake. By analyzing your personal health data, such as weight, age, and activity level, our AI model creates a customized hydration plan that's tailored to your unique needs.",
     preview: require("./showcase/iwater.png"),
     website: "https://apps.apple.com/us/app/iwater/id1578475991",
     source: "https://apps.apple.com/us/app/iwater/id1578475991",

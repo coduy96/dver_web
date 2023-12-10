@@ -6,46 +6,46 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #6b52ae;
-  --ifm-color-primary-dark: #60499d;
-  --ifm-color-primary-darker: #5b4594;
-  --ifm-color-primary-darkest: #4b397a;
-  --ifm-color-primary-light: #7a63b6;
-  --ifm-color-primary-lighter: #816cba;
-  --ifm-color-primary-lightest: #9886c6;
-  --ifm-code-font-size: 95%;
-  --ifm-hero-background-color: #6b52ae;
-  --ifm-hero-text-color: #fff;
+  --ifm-color-primary: #5c7ae6; /* Modern primary blue */
+  --ifm-color-primary-dark: #4b69d6; /* Darker shade of primary blue */
+  --ifm-color-primary-darker: #4160c8; /* Even darker shade of primary blue */
+  --ifm-color-primary-darkest: #334dac; /* Darkest shade of primary blue */
+  --ifm-color-primary-light: #7489e8; /* Lighter shade of primary blue */
+  --ifm-color-primary-lighter: #8a9eed; /* Even lighter shade of primary blue */
+  --ifm-color-primary-lightest: #b0c2f2; /* Lightest shade of primary blue */
+  --ifm-code-font-size: 95%; /* Unchanged */
+  --ifm-hero-background-color: #5c7ae6; /* Modern blue background for hero section */
+  --ifm-hero-text-color: #fff; /* White text for contrast */
 
-  --ifm-home-color-text: #414360;
-  --ifm-home-color-background: #f7f7ff;
-  --ifm-home-color-background-secondary: #d5d6f5;
-  --ifm-home-color-highlight: #8c90e0;
-  --ifm-home-color-border: #414360;
-  --ifm-home-color-black: #25292e;
-  --ifm-home-color-white: #f7f7ff;
+  --ifm-home-color-text: #ffffff; /* White text for better readability */
+  --ifm-home-color-background: #2a3f5f; /* Dark blue background */
+  --ifm-home-color-background-secondary: #3e5a8e; /* Secondary dark blue background */
+  --ifm-home-color-highlight: #5c7ae6; /* Blue highlight color */
+  --ifm-home-color-border: #ffffff; /* White border for contrast */
+  --ifm-home-color-black: #25292e; /* Unchanged */
+  --ifm-home-color-white: #f7f7ff; /* Unchanged */
 
-  --ifm-menu-color-background-active: rgb(107, 82, 174, 0.1);
+  --ifm-menu-color-background-active: rgba(92, 122, 230, 0.1); /* Slightly transparent modern blue for active menu background */
 
-  --docusaurus-highlighted-code-line-bg: #ebebeb;
+  --docusaurus-highlighted-code-line-bg: rgba(92, 122, 230, 0.07); /* Slightly transparent modern blue for highlighted code lines */
 }
 
 :root[data-theme='dark'] {
-  --ifm-color-primary: #a697ce;
-  --ifm-color-primary-dark: #917fc3;
-  --ifm-color-primary-darker: #8773bd;
-  --ifm-color-primary-darkest: #6950aa;
-  --ifm-color-primary-light: #bbafd9;
-  --ifm-color-primary-lighter: #c5bbdf;
-  --ifm-color-primary-lightest: #e4e0f0;
+  --ifm-color-primary: #5c7ae6; /* Primary blue */
+  --ifm-color-primary-dark: #4b69d6; /* Darker shade of primary blue */
+  --ifm-color-primary-darker: #4160c8; /* Even darker shade of primary blue */
+  --ifm-color-primary-darkest: #334dac; /* Darkest shade of primary blue */
+  --ifm-color-primary-light: #7489e8; /* Lighter shade of primary blue */
+  --ifm-color-primary-lighter: #8a9eed; /* Even lighter shade of primary blue */
+  --ifm-color-primary-lightest: #b0c2f2; /* Lightest shade of primary blue */
 
-  --ifm-home-color-text: #f7f7ff;
-  --ifm-home-color-background: #414360;
-  --ifm-home-color-background-secondary: #585b82;
-  --ifm-home-color-highlight: #9692ff;
-  --ifm-home-color-border: #f7f7ff;
+  --ifm-home-color-text: #ffffff; /* White text for better contrast */
+  --ifm-home-color-background: #2a3f5f; /* Dark blue background */
+  --ifm-home-color-background-secondary: #3e5a8e; /* Secondary dark blue background */
+  --ifm-home-color-highlight: #5c7ae6; /* Blue highlight color */
+  --ifm-home-color-border: #ffffff; /* White border for contrast */
 
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.07);
+  --docusaurus-highlighted-code-line-bg: rgba(92, 122, 230, 0.07); /* Slightly transparent blue for highlighted code lines */
 }
 
 .menu {

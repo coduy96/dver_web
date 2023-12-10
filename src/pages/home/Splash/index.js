@@ -34,16 +34,6 @@ export default function Splash() {
         </div>
         <SplashRightIllustration />
       </div>
-      {/* <div className={styles.migrationText}>
-        💡 Coming from an older version? Check out our{' '}
-        <Link
-          to={useBaseUrl('/docs/migration-guides')}
-          className={styles.linkText}
-        >
-          migration guides
-        </Link>
-        .
-      </div> */}
     </section>
   );
 }

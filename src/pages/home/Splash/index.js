@@ -34,6 +34,16 @@ export default function Splash() {
         </div>
         <SplashRightIllustration />
       </div>
+      <div className={styles.migrationText}>
+        💡 For more information{' '}
+        <Link
+          to={useBaseUrl('https://www.youtube.com/channel/UCIes9cBe9589V4X3RWREB3g')}
+          className={styles.linkText} 
+        >
+          Subcribe
+        </Link>
+        .
+      </div>
     </section>
   );
 }

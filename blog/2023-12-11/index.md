@@ -4,6 +4,7 @@ title: Clean Architecture vs. DDD in Flutter Development
 authors: [dver]
 tags: [flutter, architecture]
 ---
+![Example banner](https://i.ibb.co/R43MWt6/Red-Blue-Illustrative-Game-Versus-Youtube-Thumbnail-1.png)
 
 Both Clean Architecture and Domain-Driven Design (DDD) are popular approaches for building maintainable and scalable applications. However, they have distinct strengths and weaknesses:
 
